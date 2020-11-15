@@ -1,0 +1,16 @@
+[user]
+name = Igor Sidorov
+email = igor.sidorov@binarycode.ru
+[core]
+excludesfile = /etc/gitignore
+[color]
+ui = true
+[alias]
+ls = log --pretty=format:"%C(red)%h\\ %C(green)%ad\\ %C(reset)%s%C(blue)\\ [%cn]%C(yellow)%d" --decorate --date=short
+ll = log --pretty=format:"%C(red)%h\\ %C(green)%ad\\ %C(reset)%s%C(blue)\\ [%cn]%C(yellow)%d" --decorate --date=short --numstat
+[help]
+autocorrect = 1
+[push]
+default = matching
+[pull]
+ff = only
